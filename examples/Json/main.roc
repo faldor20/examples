@@ -5,7 +5,7 @@ app [main] {
 
 import cli.Stdout
 import cli.Task
-import json.Core exposing [jsonWithOptions]
+import json.Json exposing [jsonWithOptions]
 import Decode exposing [fromBytesPartial]
 
 main =
